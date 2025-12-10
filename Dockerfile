@@ -1,13 +1,16 @@
-# Dockerfile for Puppeteer Microservice
+# Use a Node.js 20 base image for better performance and security
+FROM --platform=linux/amd64 node:20-slim
 
-# Use a Node.js base image with a specific platform
-FROM --platform=linux/amd64 node:18-slim
+# Set working directory
+WORKDIR /usr/src/app
 
-# Install dependencies for Puppeteer
+# Install system dependencies required for @sparticuz/chromium
+# This is a more minimal set of dependencies
 RUN apt-get update && apt-get install -yq \
-    libgbm-dev \
-    gconf-service \
+    ca-certificates \
+    fonts-liberation \
     libasound2 \
+    libatk-bridge2.0-0 \
     libatk1.0-0 \
     libc6 \
     libcairo2 \
@@ -15,12 +18,14 @@ RUN apt-get update && apt-get install -yq \
     libdbus-1-3 \
     libexpat1 \
     libfontconfig1 \
+    libgbm1 \
     libgcc1 \
     libgconf-2-4 \
     libgdk-pixbuf2.0-0 \
     libglib2.0-0 \
     libgtk-3-0 \
     libnspr4 \
+    libnss3 \
     libpango-1.0-0 \
     libpangocairo-1.0-0 \
     libstdc++6 \
@@ -37,32 +42,26 @@ RUN apt-get update && apt-get install -yq \
     libxrender1 \
     libxss1 \
     libxtst6 \
-    ca-certificates \
-    fonts-liberation \
-    libappindicator1 \
-    libnss3 \
     lsb-release \
-    xdg-utils \
     wget \
+    xdg-utils \
     --no-install-recommends
-
-# Set the working directory
-WORKDIR /usr/src/app
 
 # Set NODE_ENV to production
 ENV NODE_ENV=production
 
-# Copy package.json and package-lock.json
-COPY puppeteer-ms/package.json puppeteer-ms/package-lock.json ./
+# Copy package files
+COPY package.json package-lock.json ./
 
-# Install dependencies
-RUN npm install
+# Install production dependencies
+RUN npm ci --only=production
 
-# Copy the rest of the application code
-COPY puppeteer-ms/ .
+# Copy the rest of your application code
+COPY . .
 
-# Expose the port the app runs on
-EXPOSE 5200
+# The server listens on the PORT environment variable, which Cloud Run provides.
+# Exposing 8080 is good practice for Cloud Run.
+EXPOSE 8080
 
-# Command to run the application
+# Start the server
 CMD ["node", "server.js"]
