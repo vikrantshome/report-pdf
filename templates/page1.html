@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Career Compass – Student Card</title>
+
+    <!-- Tailwind CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <style>
+        .line-clamp-5 {
+            display: -webkit-box;
+            -webkit-line-clamp: 5;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+    </style>
+  </head>
+
+  <body class="p-0 m-0">
+    <div
+      class="bg-[#0B57A0] w-[210mm] h-[297mm] relative overflow-hidden p-6 flex flex-col items-center"
+    >
+      <!-- Top Section -->
+      <div class="text-center mt-12">
+        <!-- <h2 class="tracking-[0.4em] text-white text-xl font-light">CAREER</h2> -->
+
+        <!-- <h1 class="text-6xl font-bold text-[#7DD4FF] -mt-2">COMPASS</h1> -->
+        <div class="flex justify-center">
+          <img
+            src="./assets/page1/compass.png"
+            alt="Allen Online Logo"
+            class="h-56 object-contain"
+          />
+        </div>
+
+        <p class="text-white mt-6 text-lg">brought to you by</p>
+        <div class="flex justify-center mt-6">
+          <img
+            src="./assets/page1/allen_online.png"
+            alt="Allen Online Logo"
+            class="h-10 object-contain"
+          />
+        </div>
+
+        <p class="text-white mt-40 text-lg">Powered by Naviksha AI</p>
+      </div>
+
+      <!-- Student Card -->
+      <div
+        class="bg-white max-w-xl w-full mt-24 p-8 rounded-3xl shadow-xl text-center"
+      >
+        <p class="font-semibold text-xl text-[#0B57A0]">
+          Student ID: <span class="font-bold">564890</span>
+        </p>
+
+        <h2 class="text-2xl font-semibold mt-4">Vikrant Rao</h2>
+
+        <p class="mt-1 text-gray-700 text-xl">
+          St. Joseph English School <br />
+          Grade 10 – CBSE
+        </p>
+
+        <p class="mt-6 text-base font-medium text-gray-800">
+          Exam Conducted: In school premises
+        </p>
+      </div>
+
+      <!-- Decorative Arrows (Optional) -->
+      <!-- You can replace these with SVGs if needed -->
+      <div class="absolute right-0 top-[500px] opacity-80">
+        <img src="./assets/bg-1.png" alt="" class="h-96 w-48" />
+      </div>
+      <div class="absolute left-0 top-[300px] opacity-80">
+        <img src="./assets/bg-2.png" alt="" class="h-[400px] w-52" />
+      </div>
+      <div class="absolute left-40 bottom-0 opacity-80">
+        <img src="./assets/bg-3.png" alt="" class="h-[70px] w-52" />
+      </div>
+    </div>
+  </body>
+</html>

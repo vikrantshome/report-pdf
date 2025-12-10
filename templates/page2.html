@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>RIASEC Profile – Allen Online</title>
+
+    <!-- Tailwind CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Google Font similar to design -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      .line-clamp-5 {
+          display: -webkit-box;
+          -webkit-line-clamp: 5;
+          -webkit-box-orient: vertical;
+          overflow: hidden;
+      }
+      :root {
+        --blue-primary: #0f6fb2;
+        --bg-blue: #f3f9ff;
+      }
+      body {
+        font-family: "Inter", system-ui, -apple-system, "Segoe UI", Roboto,
+          "Helvetica Neue", Arial;
+        background: linear-gradient(180deg, #f7fbff 0%, #f3f9ff 100%);
+      }
+      /* subtle card shadow used on design */
+      .soft-card {
+        box-shadow: 0 10px 30px rgba(15, 111, 178, 0.06);
+        border-radius: 28px;
+        background: #ffffff;
+      }
+      .pill-title {
+        background: linear-gradient(180deg, #0b63a6, #0d72bf);
+        color: white;
+        padding: 12px 36px;
+        border-radius: 999px;
+        display: inline-block;
+        font-weight: 700;
+        font-size: 1.25rem;
+      }
+      /* progress bar container */
+      .bar-track {
+        background: #f1f5f9;
+        height: 30px;
+        border-radius: 6px;
+        position: relative;
+        overflow: hidden;
+      }
+      .bar-fill {
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        font-weight: 700;
+      }
+      /* colored fills (matching image) */
+      .c-real {
+        background: #f6a623;
+      }
+      .c-invest {
+        background: #ff3b89;
+      }
+      .c-art {
+        background: #4b4fd6;
+      }
+      .c-social {
+        background: #00bcd4;
+      }
+      .c-enter {
+        background: #93cf2e;
+      }
+      .c-conv {
+        background: #1e73b8;
+      }
+
+      /* small powered badge */
+      .powered-badge {
+        background: white;
+        padding: 8px 12px;
+        border-radius: 999px;
+        box-shadow: 0 6px 18px rgba(13, 72, 112, 0.08);
+        display: flex;
+        gap: 8px;
+        align-items: center;
+      }
+      .powered-dot {
+        width: 34px;
+        height: 34px;
+        border-radius: 999px;
+        background: linear-gradient(90deg, #9f7dfb, #f6b3ff);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        font-weight: 700;
+        font-size: 0.9rem;
+      }
+
+      /* responsive tweaks */
+      @media (min-width: 1024px) {
+        .container-lg {
+          max-width: 960px;
+          margin: 48px auto;
+        }
+      }
+      @media (max-width: 768px) {
+        .pill-title {
+          padding: 10px 22px;
+          font-size: 1rem;
+        }
+        .bar-track {
+          height: 26px;
+        }
+      }
+    </style>
+  </head>
+  <body class="antialiased w-[210mm] h-[297mm]">
+    <main class="container-lg mx-auto px-6 py-8">
+      <!-- Top rounded card: Profile Summary -->
+      <section class="soft-card p-8 lg:p-12 mb-6">
+        <div class="text-center">
+          <span class="pill-title font-bold text-3xl rounded-2xl px-16"
+            >Your Profile Summary</span
+          >
+        </div>
+
+        <div
+          class="mt-6 text-center text-gray-800 max-w-3xl mx-auto leading-tight text-sm"
+        >
+          <p>
+            Your profile shows that you enjoy structure, clarity, and tasks that
+            require accuracy and logical thinking. You naturally explore how
+            things work and prefer organised environments. Your curiosity,
+            combined with your ability to understand patterns and solve
+            problems, shapes you into someone who learns best through reasoning
+            and clear steps.
+          </p>
+
+          <p class="mt-4">
+            Your strong performance in subjects like Mathematics and Computer
+            Science highlights your comfort with analytical thinking. Your home
+            environment further supports this style, giving you exposure to
+            structured, logical discussions.
+          </p>
+
+          <p class="mt-4">
+            The next pages will build on this understanding and gently guide you
+            through suitable domains and preparation pathways.
+          </p>
+        </div>
+      </section>
+
+      <!-- Main card: Personality Overview -->
+      <section class="soft-card p-8 lg:p-12 mb-8">
+        <div class="text-center">
+          <h2 class="text-3xl lg:text-4xl font-extrabold text-[#0b63a6]">
+            Your Personality Overview
+          </h2>
+          <p class="mt-2 text-gray-600 italic">
+            Based on the RIASEC framework, contextualized for India by Naviksha
+            AI
+          </p>
+        </div>
+
+        <!-- Bars block -->
+        <div class="mt-8 max-w-3xl mx-auto">
+          <!-- single row helper -->
+          <div class="grid gap-4">
+            <!-- Row: Realistic -->
+            <div class="flex items-center gap-6">
+              <div class="w-40 text-right text-gray-700 font-medium">
+                Realistic
+              </div>
+              <div class="flex-1">
+                <div class="bar-track">
+                  <div class="bar-fill c-real" style="width: 72%">
+                    <span class="sr-only">72%</span> <span>72%</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Investigative -->
+            <div class="flex items-center gap-6">
+              <div class="w-40 text-right text-gray-700 font-medium">
+                Investigative
+              </div>
+              <div class="flex-1">
+                <div class="bar-track">
+                  <div class="bar-fill c-invest" style="width: 56%">
+                    <span class="sr-only">56%</span> <span>56%</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Artistic -->
+            <div class="flex items-center gap-6">
+              <div class="w-40 text-right text-gray-700 font-medium">
+                Artistic
+              </div>
+              <div class="flex-1">
+                <div class="bar-track">
+                  <div class="bar-fill c-art" style="width: 91%">
+                    <span class="sr-only">91%</span> <span>91%</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Social -->
+            <div class="flex items-center gap-6">
+              <div class="w-40 text-right text-gray-700 font-medium">
+                Social
+              </div>
+              <div class="flex-1">
+                <div class="bar-track">
+                  <div class="bar-fill c-social" style="width: 76%">
+                    <span class="sr-only">76%</span> <span>76%</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Enterprising -->
+            <div class="flex items-center gap-6">
+              <div class="w-40 text-right text-gray-700 font-medium">
+                Enterprising
+              </div>
+              <div class="flex-1">
+                <div class="bar-track">
+                  <div class="bar-fill c-enter" style="width: 62%">
+                    <span class="sr-only">62%</span> <span>62%</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Conventional -->
+            <div class="flex items-center gap-6">
+              <div class="w-40 text-right text-gray-700 font-medium">
+                Conventional
+              </div>
+              <div class="flex-1">
+                <div class="bar-track">
+                  <div class="bar-fill c-conv" style="width: 48%">
+                    <span class="sr-only">48%</span> <span>48%</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Insights box -->
+        <div class="mt-10">
+          <div class="bg-[#f3fbff] border border-[#e1f0fb] rounded-xl p-6">
+            <h3 class="text-xl text-[#0b63a6] font-semibold text-center">
+              Insights
+            </h3>
+            <p
+              class="mt-2 text-gray-800 text-xs leading-tight max-w-2xl mx-auto text-center"
+              id="riasec-insight-paragraph"
+            >
+              <!-- RIASEC Insight will be dynamically inserted here -->
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Footer: Allen logo + Powered badge -->
+       <div class="absolute bottom-0 left-0 w-full px-10 pb-4 flex justify-between items-center">
+            <img src="./assets/footer_logo.png" alt="ALLEN ONLINE" class="h-[16px] w-auto">
+            
+            <img src="./assets/footer_logo_2.png" alt="Powered by Naviksha AI" class="h-[34px] w-auto shadow-sm rounded-full">
+        </div>
+    </main>
+  </body>
+</html>

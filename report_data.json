@@ -1,0 +1,449 @@
+{
+  "_id": {
+    "$oid": "691f1989503c55469d780ccb"
+  },
+  "userId": "691f1906503c55469d780cc8",
+  "reportData": {
+    "studentName": "test006",
+    "grade": 12,
+    "board": "CBSE",
+    "vibeScores": {
+      "A": 14,
+      "R": 14,
+      "S": 14,
+      "C": 21,
+      "E": 14,
+      "I": 21
+    },
+    "eduStats": {
+      "Computer Science": 90
+    },
+    "extracurriculars": [
+      "Robotics / Coding",
+      "Community Service"
+    ],
+    "parents": [
+      "IT / Software",
+      "Finance / Banking",
+      "Education"
+    ],
+    "top5Buckets": [
+      {
+        "bucketName": "Computer Science & Software Development",
+        "bucketScore": 53,
+        "topCareers": [
+          {
+            "careerName": "Frontend Developer",
+            "matchScore": 53,
+            "topReasons": [
+              "Strong Computer Science marks (90) — good foundation for this field."
+            ],
+            "studyPath": [
+              "B.Tech CS",
+              "B.Sc Computer Science",
+              "BCA"
+            ],
+            "first3Steps": [
+              "Explore Frontend Developer through online courses or workshops",
+              "Connect with professionals in this field for informational interviews",
+              "Start a small project related to frontend developer"
+            ],
+            "confidence": "Low",
+            "whatWouldChangeRecommendation": "Focus on building practical experience through projects and internships."
+          },
+          {
+            "careerName": "Backend Developer",
+            "matchScore": 53,
+            "topReasons": [
+              "Strong Computer Science marks (90) — good foundation for this field."
+            ],
+            "studyPath": [
+              "B.Tech CS",
+              "B.Sc CS",
+              "BCA"
+            ],
+            "first3Steps": [
+              "Explore Backend Developer through online courses or workshops",
+              "Connect with professionals in this field for informational interviews",
+              "Start a small project related to backend developer"
+            ],
+            "confidence": "Low",
+            "whatWouldChangeRecommendation": "Focus on building practical experience through projects and internships."
+          },
+          {
+            "careerName": "Fullstack Developer",
+            "matchScore": 53,
+            "topReasons": [
+              "Strong Computer Science marks (90) — good foundation for this field."
+            ],
+            "studyPath": [
+              "B.Tech CS",
+              "BCA",
+              "BSc CS"
+            ],
+            "first3Steps": [
+              "Explore Fullstack Developer through online courses or workshops",
+              "Connect with professionals in this field for informational interviews",
+              "Start a small project related to fullstack developer"
+            ],
+            "confidence": "Low",
+            "whatWouldChangeRecommendation": "Focus on building practical experience through projects and internships."
+          },
+          {
+            "careerName": "Mobile App Developer",
+            "matchScore": 53,
+            "topReasons": [
+              "Strong Computer Science marks (90) — good foundation for this field."
+            ],
+            "studyPath": [
+              "B.Tech CS",
+              "BCA",
+              "BSc CS"
+            ],
+            "first3Steps": [
+              "Explore Mobile App Developer through online courses or workshops",
+              "Connect with professionals in this field for informational interviews",
+              "Start a small project related to mobile app developer"
+            ],
+            "confidence": "Low",
+            "whatWouldChangeRecommendation": "Focus on building practical experience through projects and internships."
+          }
+        ]
+      },
+      {
+        "bucketName": "Cybersecurity Networks & Emerging Tech",
+        "bucketScore": 51,
+        "topCareers": [
+          {
+            "careerName": "Cybersecurity Analyst",
+            "matchScore": 52,
+            "topReasons": [
+              "Strong Computer Science marks (90) — good foundation for this field."
+            ],
+            "studyPath": [
+              "B.Tech CS",
+              "Cybersecurity Certifications (CEH)",
+              "BSc IT"
+            ],
+            "first3Steps": [
+              "Explore Cybersecurity Analyst through online courses or workshops",
+              "Connect with professionals in this field for informational interviews",
+              "Start a small project related to cybersecurity analyst"
+            ],
+            "confidence": "Low",
+            "whatWouldChangeRecommendation": "Focus on building practical experience through projects and internships."
+          },
+          {
+            "careerName": "Blockchain Developer",
+            "matchScore": 52,
+            "topReasons": [
+              "Strong Computer Science marks (90) — good foundation for this field."
+            ],
+            "studyPath": [
+              "B.Tech CS",
+              "BSc IT",
+              "Certification Blockchain"
+            ],
+            "first3Steps": [
+              "Explore Blockchain Developer through online courses or workshops",
+              "Connect with professionals in this field for informational interviews",
+              "Start a small project related to blockchain developer"
+            ],
+            "confidence": "Low",
+            "whatWouldChangeRecommendation": "Focus on building practical experience through projects and internships."
+          },
+          {
+            "careerName": "Drone Systems Operator",
+            "matchScore": 50,
+            "topReasons": [
+              "Strong Computer Science marks (90) — good foundation for this field."
+            ],
+            "studyPath": [
+              "Diploma UAV Operations",
+              "Certificate Drone Pilot",
+              "ILT Drone Systems"
+            ],
+            "first3Steps": [
+              "Explore Drone Systems Operator through online courses or workshops",
+              "Connect with professionals in this field for informational interviews",
+              "Start a small project related to drone systems operator"
+            ],
+            "confidence": "Low",
+            "whatWouldChangeRecommendation": "Focus on building practical experience through projects and internships."
+          }
+        ]
+      },
+      {
+        "bucketName": "Entrepreneurship & Product Management",
+        "bucketScore": 50,
+        "topCareers": [
+          {
+            "careerName": "Product Manager",
+            "matchScore": 50,
+            "topReasons": [
+              "Strong Computer Science marks (90) — good foundation for this field."
+            ],
+            "studyPath": [
+              "B.Tech + MBA",
+              "BBA + MBA",
+              "PG Diploma Product Management"
+            ],
+            "first3Steps": [
+              "Explore Product Manager through online courses or workshops",
+              "Connect with professionals in this field for informational interviews",
+              "Start a small project related to product manager"
+            ],
+            "confidence": "Low",
+            "whatWouldChangeRecommendation": "Focus on building practical experience through projects and internships."
+          }
+        ]
+      },
+      {
+        "bucketName": "Data AI & Analytics",
+        "bucketScore": 48,
+        "topCareers": [
+          {
+            "careerName": "Data Scientist",
+            "matchScore": 52,
+            "topReasons": [
+              "Strong Computer Science marks (90) — good foundation for this field."
+            ],
+            "studyPath": [
+              "B.Sc Statistics",
+              "B.Tech CS (AI)",
+              "B.Stat"
+            ],
+            "first3Steps": [
+              "Explore Data Scientist through online courses or workshops",
+              "Connect with professionals in this field for informational interviews",
+              "Start a small project related to data scientist"
+            ],
+            "confidence": "Low",
+            "whatWouldChangeRecommendation": "Focus on building practical experience through projects and internships."
+          },
+          {
+            "careerName": "Machine Learning Engineer",
+            "matchScore": 52,
+            "topReasons": [
+              "Strong Computer Science marks (90) — good foundation for this field."
+            ],
+            "studyPath": [
+              "B.Tech CS (AI)",
+              "B.Sc Computer Science",
+              "Integrated M.Tech (AI)"
+            ],
+            "first3Steps": [
+              "Explore Machine Learning Engineer through online courses or workshops",
+              "Connect with professionals in this field for informational interviews",
+              "Start a small project related to machine learning engineer"
+            ],
+            "confidence": "Low",
+            "whatWouldChangeRecommendation": "Focus on building practical experience through projects and internships."
+          },
+          {
+            "careerName": "Data Analyst",
+            "matchScore": 52,
+            "topReasons": [
+              "Strong Computer Science marks (90) — good foundation for this field."
+            ],
+            "studyPath": [
+              "B.Sc Economics (with stats)",
+              "B.Sc Statistics",
+              "BCA"
+            ],
+            "first3Steps": [
+              "Explore Data Analyst through online courses or workshops",
+              "Connect with professionals in this field for informational interviews",
+              "Start a small project related to data analyst"
+            ],
+            "confidence": "Low",
+            "whatWouldChangeRecommendation": "Focus on building practical experience through projects and internships."
+          },
+          {
+            "careerName": "NLP Engineer",
+            "matchScore": 52,
+            "topReasons": [
+              "Strong Computer Science marks (90) — good foundation for this field."
+            ],
+            "studyPath": [
+              "B.Tech CS (NLP)",
+              "BSc CS + NLP electives",
+              "Integrated M.Tech (NLP)"
+            ],
+            "first3Steps": [
+              "Explore NLP Engineer through online courses or workshops",
+              "Connect with professionals in this field for informational interviews",
+              "Start a small project related to nlp engineer"
+            ],
+            "confidence": "Low",
+            "whatWouldChangeRecommendation": "Focus on building practical experience through projects and internships."
+          },
+          {
+            "careerName": "AI Ethics Officer",
+            "matchScore": 36,
+            "topReasons": [],
+            "studyPath": [
+              "MA Philosophy",
+              "MA Ethics",
+              "LLB + specialization"
+            ],
+            "first3Steps": [
+              "Explore AI Ethics Officer through online courses or workshops",
+              "Connect with professionals in this field for informational interviews",
+              "Start a small project related to ai ethics officer"
+            ],
+            "confidence": "Low",
+            "whatWouldChangeRecommendation": "Focus on building practical experience through projects and internships."
+          }
+        ]
+      },
+      {
+        "bucketName": "Design Media & Creative Industries",
+        "bucketScore": 45,
+        "topCareers": [
+          {
+            "careerName": "UX/UI Designer",
+            "matchScore": 50,
+            "topReasons": [
+              "Strong Computer Science marks (90) — good foundation for this field."
+            ],
+            "studyPath": [
+              "B.Des Product",
+              "B.Des Graphic",
+              "BFA"
+            ],
+            "first3Steps": [
+              "Explore UX/UI Designer through online courses or workshops",
+              "Connect with professionals in this field for informational interviews",
+              "Start a small project related to ux/ui designer"
+            ],
+            "confidence": "Low",
+            "whatWouldChangeRecommendation": "Focus on building practical experience through projects and internships."
+          },
+          {
+            "careerName": "Animation & VFX Artist",
+            "matchScore": 50,
+            "topReasons": [
+              "Strong Computer Science marks (90) — good foundation for this field."
+            ],
+            "studyPath": [
+              "B.Des Animation",
+              "BA Multimedia",
+              "Diploma VFX"
+            ],
+            "first3Steps": [
+              "Explore Animation & VFX Artist through online courses or workshops",
+              "Connect with professionals in this field for informational interviews",
+              "Start a small project related to animation & vfx artist"
+            ],
+            "confidence": "Low",
+            "whatWouldChangeRecommendation": "Focus on building practical experience through projects and internships."
+          },
+          {
+            "careerName": "Graphic Designer",
+            "matchScore": 36,
+            "topReasons": [],
+            "studyPath": [
+              "B.Des Graphic",
+              "BFA",
+              "BA Multimedia"
+            ],
+            "first3Steps": [
+              "Explore Graphic Designer through online courses or workshops",
+              "Connect with professionals in this field for informational interviews",
+              "Start a small project related to graphic designer"
+            ],
+            "confidence": "Low",
+            "whatWouldChangeRecommendation": "Focus on building practical experience through projects and internships."
+          }
+        ]
+      }
+    ],
+    "summaryParagraph": "test006 — your profile shows strong alignment with Computer Science & Software Development careers. We recommend focusing on building relevant skills and gaining practical experience in your top-matched fields like Frontend Developer.",
+    "aiEnhanced": true,
+    "enhancedSummary": "test006 — your profile shows strong alignment with Computer Science & Software Development careers. We recommend focusing on building relevant skills and gaining practical experience in your top-matched fields like Frontend Developer.",
+    "skillRecommendations": [
+      "Build full-stack development skills",
+      "Practice coding projects",
+      "Build full-stack development skills",
+      "Practice coding projects",
+      "Build full-stack development skills"
+    ],
+    "detailedSkillRecommendations": [],
+    "careerTrajectoryInsights": "Your path to Frontend Developer could start with building a strong foundation in  during 12th grade, followed by pursuing relevant higher education and gaining practical experience.",
+    "detailedCareerInsights": {
+      "explanations": {
+        "Frontend Developer": "Based on your profile, Frontend Developer is a strong match due to your analytical skills and relevant background.",
+        "Backend Developer": "Based on your profile, Backend Developer is a strong match due to your analytical skills and relevant background.",
+        "Fullstack Developer": "Based on your profile, Fullstack Developer is a strong match due to your analytical skills and relevant background.",
+        "Mobile App Developer": "Based on your profile, Mobile App Developer is a strong match due to your analytical skills and relevant background.",
+        "Cybersecurity Analyst": "Based on your profile, Cybersecurity Analyst is a strong match due to your analytical skills and relevant background."
+      },
+      "studyPaths": {
+        "Frontend Developer": [
+          "Focus on relevant subjects in your current studies",
+          "Complete Explore Frontend Developer through online courses or workshops",
+          "Consider B.Tech CS for advanced learning"
+        ],
+        "Backend Developer": [
+          "Focus on relevant subjects in your current studies",
+          "Complete Explore Backend Developer through online courses or workshops",
+          "Consider B.Tech CS for advanced learning"
+        ],
+        "Fullstack Developer": [
+          "Focus on relevant subjects in your current studies",
+          "Complete Explore Fullstack Developer through online courses or workshops",
+          "Consider B.Tech CS for advanced learning"
+        ],
+        "Mobile App Developer": [
+          "Focus on relevant subjects in your current studies",
+          "Complete Explore Mobile App Developer through online courses or workshops",
+          "Consider B.Tech CS for advanced learning"
+        ],
+        "Cybersecurity Analyst": [
+          "Focus on relevant subjects in your current studies",
+          "Complete Explore Cybersecurity Analyst through online courses or workshops",
+          "Consider B.Tech CS for advanced learning"
+        ]
+      },
+      "confidenceExplanations": {
+        "Frontend Developer": "High confidence (53%) due to strong alignment in your profile.",
+        "Backend Developer": "High confidence (53%) due to strong alignment in your profile.",
+        "Fullstack Developer": "High confidence (53%) due to strong alignment in your profile.",
+        "Mobile App Developer": "High confidence (53%) due to strong alignment in your profile.",
+        "Cybersecurity Analyst": "High confidence (52%) due to strong alignment in your profile."
+      }
+    },
+    "actionPlan": [
+      {
+        "title": "Explore Career Details",
+        "desc": "Research your top 3-5 career recommendations in depth. Understand daily responsibilities, growth opportunities, and industry trends.",
+        "timeline": "This week"
+      },
+      {
+        "title": "Educational Pathway Planning",
+        "desc": "Research educational requirements, courses, and institutions that align with your career choices. Plan your subject selection for upcoming grades.",
+        "timeline": "Next 2 weeks"
+      },
+      {
+        "title": "Professional Networking",
+        "desc": "Connect with professionals in your areas of interest through LinkedIn, career events, or through family connections. Conduct informational interviews.",
+        "timeline": "This month"
+      },
+      {
+        "title": "Gain Experience",
+        "desc": "Look for internships, job shadowing opportunities, or volunteer work in your fields of interest. Consider joining relevant clubs or competitions.",
+        "timeline": "Next 3 months"
+      },
+      {
+        "title": "Skill Development",
+        "desc": "Identify and develop key skills relevant to your top career choices. Take online courses, attend workshops, or start personal projects.",
+        "timeline": "Ongoing"
+      }
+    ]
+  },
+  "createdAt": {
+    "$date": "2025-11-20T13:37:13.360Z"
+  },
+  "_class": "com.naviksha.model.Report"
+}

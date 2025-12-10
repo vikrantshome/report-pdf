@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thank You - Page 6</title>
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <script>
+        tailwind.config = {
+            theme: {
+                fontFamily: {
+                    sans: ['Inter', 'system-ui', 'sans-serif'],
+                },
+                extend: {
+                    colors: {
+                        'brand-blue': '#0056b3', // The main blue background
+                    }
+                }
+            }
+        }
+    </script>
+    
+    <style>
+        .line-clamp-5 {
+            display: -webkit-box;
+            -webkit-line-clamp: 5;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+        /* Exact A4 Dimensions */
+        @media screen {
+            body {
+                background: #e5e5e5;
+                display: flex;
+                justify-content: center;
+                padding: 20px;
+            }
+            .page-container {
+                width: 210mm;
+                height: 297mm;
+                position: relative;
+                box-shadow: 0 0 10px rgba(0,0,0,0.1);
+                overflow: hidden;
+            }
+        }
+        @media print {
+            body {
+                margin: 0;
+                padding: 0;
+            }
+            .page-container {
+                width: 210mm;
+                height: 297mm;
+                page-break-after: always;
+                position: relative;
+            }
+        }
+        
+        /* Utility to turn the blue logo white */
+        .logo-white-filter {
+            filter: brightness(0) invert(1);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="page-container bg-brand-blue flex flex-col items-center justify-center text-white font-sans text-center">
+        
+        <div class="mb-32">
+            <h1 class="text-5xl font-medium tracking-wide">Thank You</h1>
+        </div>
+
+        <div class="mb-20">
+            <p class="text-xl font-medium mb-5 opacity-95">This report is brought to you by</p>
+            
+            <div class="flex justify-center">
+                <img src="./assets/footer_logo.png" alt="ALLEN ONLINE" class="h-10 w-auto logo-white-filter">
+            </div>
+        </div>
+
+        <div>
+            <p class="text-xl font-medium mb-3">Powered by Naviksha AI</p>
+            <p class="text-sm font-normal opacity-90 tracking-wide">
+                For any queries, contact: ainaviksha@gmail.com
+            </p>
+        </div>
+
+    </div>
+
+</body>
+</html>

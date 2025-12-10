@@ -1,0 +1,963 @@
+[
+  {
+    "_id": {
+      "$oid": "6923c65d7bec671d320b088f"
+    },
+    "careerId": "c001",
+    "careerName": "Mechanical Engineer",
+    "bucket": "Core Technology & Engineering",
+    "riasecProfile": "R",
+    "primarySubjects": "[\"Mathematics\",\"Physics\"]",
+    "tags": "[\"mechanical\",\"hands_on\"]",
+    "minQualification": "B.Tech / Diploma",
+    "top5CollegeCourses": "B.Tech Mechanical,B.E Mechanical,B.Sc Mechanical Engineering,Diploma Mechanical,M.Tech Mechanical",
+    "baseParagraph": "You enjoy building and fixing things and like hands-on work. Mechanical engineering applies physics and math to design machines and systems. It's ideal if you like practical problem solving.",
+    "microprojects": "Build a small Arduino robotic arm;Design a gear mechanism model",
+    "whyFit": "Likes building/fixing;Comfort with physical systems;Good spatial reasoning",
+    "recommendedSkills": [
+      "CAD (Computer-Aided Design)",
+      "Thermodynamics",
+      "Fluid Mechanics",
+      "Problem-Solving",
+      "Project Management"
+    ],
+    "recommendedCourses": [
+      " Introduction to Mechanical Engineering",
+      "edX: Mechanics of Materials I",
+      "AutoCAD Certification",
+      "SolidWorks Certification"
+    ],
+    "_class": "com.naviksha.model.Career"
+  },
+  {
+    "_id": {
+      "$oid": "6923c65e7bec671d320b0890"
+    },
+    "careerId": "c002",
+    "careerName": "Civil Engineer",
+    "bucket": "Core Technology & Engineering",
+    "riasecProfile": "R",
+    "primarySubjects": "[\"Mathematics\",\"Physics\"]",
+    "tags": "[\"construction\",\"planning\"]",
+    "minQualification": "B.Tech / Diploma",
+    "top5CollegeCourses": "B.Tech Civil,B.E Civil,Diploma Civil,B.Sc Civil Engineering,M.Tech Structural",
+    "baseParagraph": "Civil engineers design roads, bridges and buildings. If you like drawing plans and seeing structures built, this fits.",
+    "microprojects": "Model a small truss bridge;Survey a local site and document",
+    "whyFit": "Enjoys applied maths;Likes outdoor/site work;Good at spatial tasks",
+    "recommendedSkills": [
+      "Structural Analysis",
+      "AutoCAD",
+      "Project Management",
+      "Surveying",
+      "Geotechnical Engineering"
+    ],
+    "recommendedCourses": [
+      " Fundamentals of Structural Analysis",
+      "edX: Introduction to Civil Engineering",
+      "Primavera P6 Certification",
+      "STAAD.Pro Certification"
+    ],
+    "_class": "com.naviksha.model.Career"
+  },
+  {
+    "_id": {
+      "$oid": "6923c65f7bec671d320b0891"
+    },
+    "careerId": "c003",
+    "careerName": "Electrical Engineer",
+    "bucket": "Core Technology & Engineering",
+    "riasecProfile": "RI",
+    "primarySubjects": "[\"Mathematics\",\"Physics\"]",
+    "tags": "[\"electronics\",\"power\"]",
+    "minQualification": "B.Tech / Diploma",
+    "top5CollegeCourses": "B.Tech Electrical,B.E Electrical,Diploma Electrical,B.Sc Electrical,M.Tech Power Systems",
+    "baseParagraph": "Designs electrical systems and circuits. Great if you like circuits and electronics.",
+    "microprojects": "Assemble a basic PCB;Build a simple motor controller",
+    "whyFit": "Interested in electronics;Good with math;Enjoys troubleshooting",
+    "recommendedSkills": [
+      "Circuit Design",
+      "PLC Programming",
+      "Power Systems",
+      "Control Systems",
+      "MATLAB"
+    ],
+    "recommendedCourses": [
+      " Introduction to Electronics",
+      "edX: Circuits and Electronics",
+      "PSpice Certification",
+      "Siemens PLC Certification"
+    ],
+    "_class": "com.naviksha.model.Career"
+  },
+  {
+    "_id": {
+      "$oid": "6923c65f7bec671d320b0892"
+    },
+    "careerId": "c004",
+    "careerName": "Automotive Engineer",
+    "bucket": "Core Technology & Engineering",
+    "riasecProfile": "R",
+    "primarySubjects": "[\"Mathematics\",\"Physics\"]",
+    "tags": "[\"vehicles\",\"design\"]",
+    "minQualification": "B.Tech / Diploma",
+    "top5CollegeCourses": "B.Tech Automotive,B.E Automotive,Diploma Automotive,BSc Automotive,M.Tech Automotive",
+    "baseParagraph": "Designs vehicles and automotive systems. Ideal for hands-on students fascinated by vehicles.",
+    "microprojects": "Disassemble/rebuild small engine model;Design a car component in CAD",
+    "whyFit": "Loves vehicles;Mechanically inclined;Good spatial reasoning",
+    "recommendedSkills": [
+      "Vehicle Dynamics",
+      "CATIA",
+      "ANSYS",
+      "Powertrain Systems",
+      "Embedded Systems"
+    ],
+    "recommendedCourses": [
+      " Introduction to Automotive Engineering",
+      "edX: Electric Vehicles",
+      "CATIA Certification",
+      "Ansys Certification"
+    ],
+    "_class": "com.naviksha.model.Career"
+  },
+  {
+    "_id": {
+      "$oid": "6923c6607bec671d320b0893"
+    },
+    "careerId": "c005",
+    "careerName": "Materials/Metallurgy Engineer",
+    "bucket": "Core Technology & Engineering",
+    "riasecProfile": "RI",
+    "primarySubjects": "[\"Chemistry\",\"Physics\"]",
+    "tags": "[\"materials\",\"research\"]",
+    "minQualification": "B.Tech / Diploma",
+    "top5CollegeCourses": "B.Tech Materials,BSc Materials Engineering,Diploma Materials,M.Tech Metallurgy",
+    "baseParagraph": "Studies materials used in engineering — metals, polymers and ceramics.",
+    "microprojects": "Test metal samples;Create a small composite material sample",
+    "whyFit": "Likes lab work;Interest in chemistry;Problem solver",
+    "recommendedSkills": [
+      "Material Science",
+      "Crystallography",
+      "Thermodynamics",
+      "Spectroscopy",
+      "Research"
+    ],
+    "recommendedCourses": [
+      " Material Science: 10 Things Every Engineer Should Know",
+      "edX: Introduction to Solid State Chemistry",
+      "NPTEL: Materials Science and Engineering"
+    ],
+    "_class": "com.naviksha.model.Career"
+  },
+  {
+    "_id": {
+      "$oid": "6923c6607bec671d320b0894"
+    },
+    "careerId": "c010",
+    "careerName": "Data Scientist",
+    "bucket": "Data AI & Analytics",
+    "riasecProfile": "IA",
+    "primarySubjects": "[\"Mathematics\",\"Computer Science\",\"Statistics\"]",
+    "tags": "[\"data\",\"new_age\"]",
+    "minQualification": "B.Sc/B.Tech",
+    "top5CollegeCourses": "B.Sc Statistics,B.Tech CS (AI),B.Stat,Integrated M.Tech Data Science,BCA + PG Diploma Data Science",
+    "baseParagraph": "Work on data to build models and find insights. Great for people who love math and problem-solving.",
+    "microprojects": "Kaggle beginner model;Sentiment analysis on tweets",
+    "whyFit": "Strong analytical;Comfort with math & coding;Curious about patterns",
+    "recommendedSkills": [
+      "Python",
+      "R",
+      "SQL",
+      "Machine Learning",
+      "Data Visualization"
+    ],
+    "recommendedCourses": [
+      " IBM Data Science Professional Certificate",
+      "edX: Data Science MicroMasters",
+      "Kaggle Courses"
+    ],
+    "_class": "com.naviksha.model.Career"
+  },
+  {
+    "_id": {
+      "$oid": "6923c6617bec671d320b0895"
+    },
+    "careerId": "c011",
+    "careerName": "Machine Learning Engineer",
+    "bucket": "Data AI & Analytics",
+    "riasecProfile": "IA",
+    "primarySubjects": "[\"Mathematics\",\"Computer Science\"]",
+    "tags": "[\"ml\",\"new_age\"]",
+    "minQualification": "B.Tech / M.Tech",
+    "top5CollegeCourses": "B.Tech CS (AI),B.Sc Computer Science,Integrated M.Tech (AI),B.Tech + PGDSAI,Online specialization",
+    "baseParagraph": "Builds and deploys ML models. Ideal for students who like coding + maths.",
+    "microprojects": "Train a simple classifier;Implement linear regression project",
+    "whyFit": "Strong math skills;Likes coding;Research/experiment tendency",
+    "recommendedSkills": [
+      "Python",
+      "TensorFlow",
+      "PyTorch",
+      "Scikit-learn",
+      "Deep Learning"
+    ],
+    "recommendedCourses": [
+      " Deep Learning Specialization",
+      "fast.ai: Practical Deep Learning for Coders",
+      "Google AI Education"
+    ],
+    "_class": "com.naviksha.model.Career"
+  },
+  {
+    "_id": {
+      "$oid": "6923c6627bec671d320b0896"
+    },
+    "careerId": "c012",
+    "careerName": "Data Analyst",
+    "bucket": "Data AI & Analytics",
+    "riasecProfile": "IA",
+    "primarySubjects": "[\"Mathematics\",\"Statistics\",\"Computer Science\"]",
+    "tags": "[\"analytics\"]",
+    "minQualification": "B.Sc / BCA",
+    "top5CollegeCourses": "B.Sc Economics (with stats),B.Sc Statistics,BCA,B.Com(H),PG Diploma Analytics",
+    "baseParagraph": "Analyzes data to create business insights. Useful for students who like spreadsheets and storytelling.",
+    "microprojects": "Sales data dashboard in Excel;Analyze school exam trends",
+    "whyFit": "Comfort with numbers;Good communication;Curiosity",
+    "recommendedSkills": [
+      "Excel",
+      "SQL",
+      "Tableau",
+      "Power BI",
+      "Statistics"
+    ],
+    "recommendedCourses": [
+      " Google Data Analytics Professional Certificate",
+      "Microsoft Power BI Certification",
+      "Tableau Desktop Specialist Certification"
+    ],
+    "_class": "com.naviksha.model.Career"
+  },
+  {
+    "_id": {
+      "$oid": "6923c6627bec671d320b0897"
+    },
+    "careerId": "c013",
+    "careerName": "AI Ethics Officer",
+    "bucket": "Data AI & Analytics",
+    "riasecProfile": "AE",
+    "primarySubjects": "[\"English\",\"Social Studies\"]",
+    "tags": "[\"ethics\",\"policy\",\"new_age\"]",
+    "minQualification": "MA / PG",
+    "top5CollegeCourses": "MA Philosophy,MA Ethics,LLB + specialization,PG Diploma Data Ethics,MA Sociology",
+    "baseParagraph": "Works at the intersection of technology and ethics. Good for students interested in AI and society.",
+    "microprojects": "Write a short policy brief on AI fairness;Host a debate on AI ethics",
+    "whyFit": "Interest in society;Good writing;Values-driven",
+    "recommendedSkills": [
+      "Ethics",
+      "Philosophy",
+      "Public Policy",
+      "Critical Thinking",
+      "Communication"
+    ],
+    "recommendedCourses": [
+      " AI For Everyone",
+      "edX: The Ethics of AI",
+      "IAPP Certified Information Privacy Professional (CIPP)"
+    ],
+    "_class": "com.naviksha.model.Career"
+  },
+  {
+    "_id": {
+      "$oid": "6923c6637bec671d320b0898"
+    },
+    "careerId": "c014",
+    "careerName": "NLP Engineer",
+    "bucket": "Data AI & Analytics",
+    "riasecProfile": "IA",
+    "primarySubjects": "[\"Computer Science\",\"Mathematics\",\"English\"]",
+    "tags": "[\"nlp\",\"new_age\"]",
+    "minQualification": "B.Tech / M.Tech",
+    "top5CollegeCourses": "B.Tech CS (NLP),BSc CS + NLP electives,Integrated M.Tech (NLP),M.Tech CS,PG Diploma NLP",
+    "baseParagraph": "Builds systems that understand language. Ideal for coding + language lovers.",
+    "microprojects": "Build a chatbot;Sentiment analysis for news articles",
+    "whyFit": "Loves language & coding;Analytical;Research leaning",
+    "recommendedSkills": [
+      "Python",
+      "NLTK",
+      "spaCy",
+      "Transformers",
+      "Deep Learning"
+    ],
+    "recommendedCourses": [
+      " Natural Language Processing Specialization",
+      "Hugging Face Course",
+      "fast.ai: A Code-First Introduction to Natural Language Processing"
+    ],
+    "_class": "com.naviksha.model.Career"
+  },
+  {
+    "_id": {
+      "$oid": "6923c6637bec671d320b0899"
+    },
+    "careerId": "c020",
+    "careerName": "Frontend Developer",
+    "bucket": "Computer Science & Software Development",
+    "riasecProfile": "EAC",
+    "primarySubjects": "[\"Computer Science\",\"Mathematics\"]",
+    "tags": "[\"web\",\"ui\"]",
+    "minQualification": "B.Tech / BCA",
+    "top5CollegeCourses": "B.Tech CS,B.Sc Computer Science,BCA,Integrated M.Tech CS,Diploma Software Engg",
+    "baseParagraph": "Builds web interfaces and visual apps. Good for students who enjoy design + code.",
+    "microprojects": "Create a personal website;Build a small React app",
+    "whyFit": "Likes design & coding;Detail oriented;Good UX sense",
+    "recommendedSkills": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "React",
+      "Vue.js"
+    ],
+    "recommendedCourses": [
+      "freeCodeCamp: Responsive Web Design",
+      "The Odin Project",
+      " Meta Front-End Developer Professional Certificate"
+    ],
+    "_class": "com.naviksha.model.Career"
+  },
+  {
+    "_id": {
+      "$oid": "6923c6647bec671d320b089a"
+    },
+    "careerId": "c021",
+    "careerName": "Backend Developer",
+    "bucket": "Computer Science & Software Development",
+    "riasecProfile": "IR",
+    "primarySubjects": "[\"Computer Science\",\"Mathematics\"]",
+    "tags": "[\"servers\",\"logic\"]",
+    "minQualification": "B.Tech / BCA",
+    "top5CollegeCourses": "B.Tech CS,B.Sc CS,BCA,Diploma Software Engineering,Integrated M.Tech CS",
+    "baseParagraph": "Builds server-side systems and logic. Great for logical problem solvers.",
+    "microprojects": "Create a REST API;Build a CRUD app with DB",
+    "whyFit": "Enjoys logic & algorithms;Comfort with code;Systematic",
+    "recommendedSkills": [
+      "Node.js",
+      "Python (Django/Flask)",
+      "Java (Spring)",
+      "Databases (SQL/NoSQL)",
+      "API Design"
+    ],
+    "recommendedCourses": [
+      " IBM Back-End Development Professional Certificate",
+      "The Odin Project: Full Stack JavaScript",
+      "freeCodeCamp: Back End Development and APIs"
+    ],
+    "_class": "com.naviksha.model.Career"
+  },
+  {
+    "_id": {
+      "$oid": "6923c6647bec671d320b089b"
+    },
+    "careerId": "c022",
+    "careerName": "Fullstack Developer",
+    "bucket": "Computer Science & Software Development",
+    "riasecProfile": "IRE",
+    "primarySubjects": "[\"Computer Science\",\"Mathematics\"]",
+    "tags": "[\"web\",\"systems\"]",
+    "minQualification": "B.Tech / BCA",
+    "top5CollegeCourses": "B.Tech CS,BCA,BSc CS,Integrated M.Tech,PG Diploma Fullstack",
+    "baseParagraph": "Combines frontend + backend skills — versatile role.",
+    "microprojects": "Build a fullstack app;Deploy app to free cloud",
+    "whyFit": "Versatile;Likes end-to-end building;Good tolerance for complexity",
+    "recommendedSkills": [
+      "HTML/CSS/JavaScript",
+      "React/Angular/Vue.js",
+      "Node.js/Python/Java",
+      "Databases",
+      "DevOps"
+    ],
+    "recommendedCourses": [
+      "The Odin Project: Full Stack Ruby on Rails",
+      "Fullstack Open",
+      " Meta Full-Stack Engineer Professional Certificate"
+    ],
+    "_class": "com.naviksha.model.Career"
+  },
+  {
+    "_id": {
+      "$oid": "6923c6657bec671d320b089c"
+    },
+    "careerId": "c023",
+    "careerName": "Mobile App Developer",
+    "bucket": "Computer Science & Software Development",
+    "riasecProfile": "IE",
+    "primarySubjects": "[\"Computer Science\",\"Mathematics\"]",
+    "tags": "[\"mobile\",\"apps\"]",
+    "minQualification": "B.Tech / BCA",
+    "top5CollegeCourses": "B.Tech CS,BCA,BSc CS,Diploma Mobile Dev,Integrated M.Tech",
+    "baseParagraph": "Builds mobile apps on Android/iOS.",
+    "microprojects": "Build a simple Expo app;Implement UI and local storage",
+    "whyFit": "Likes mobile UX;Enjoys coding;Product mindset",
+    "recommendedSkills": [
+      "Swift (iOS)",
+      "Kotlin (Android)",
+      "React Native",
+      "Flutter",
+      "UI/UX Design"
+    ],
+    "recommendedCourses": [
+      " Meta iOS Developer Professional Certificate",
+      " Meta Android Developer Professional Certificate",
+      "Udacity: Android Kotlin Developer Nanodegree"
+    ],
+    "_class": "com.naviksha.model.Career"
+  },
+  {
+    "_id": {
+      "$oid": "6923c6657bec671d320b089d"
+    },
+    "careerId": "c030",
+    "careerName": "UX/UI Designer",
+    "bucket": "Design Media & Creative Industries",
+    "riasecProfile": "AE",
+    "primarySubjects": "[\"Art / Design\",\"Computer Science\"]",
+    "tags": "[\"design\",\"creative\"]",
+    "minQualification": "B.Des / Diploma",
+    "top5CollegeCourses": "B.Des Product,B.Des Graphic,BFA,BA Multimedia,Diploma Animation",
+    "baseParagraph": "Designs interfaces and visual experiences. Great if you love visuals and user empathy.",
+    "microprojects": "Design a simple app UI;Create micro-interactions prototypes",
+    "whyFit": "Strong visual sense;Empathy;Detail oriented",
+    "recommendedSkills": [
+      "Figma",
+      "Adobe XD",
+      "User Research",
+      "Wireframing",
+      "Prototyping"
+    ],
+    "recommendedCourses": [
+      " Google UX Design Professional Certificate",
+      "Interaction Design Foundation",
+      "Nielsen Norman Group UX Certification"
+    ],
+    "_class": "com.naviksha.model.Career"
+  },
+  {
+    "_id": {
+      "$oid": "6923c6657bec671d320b089e"
+    },
+    "careerId": "c031",
+    "careerName": "Graphic Designer",
+    "bucket": "Design Media & Creative Industries",
+    "riasecProfile": "A",
+    "primarySubjects": "[\"Art / Design\"]",
+    "tags": "[\"creative\",\"visual\"]",
+    "minQualification": "B.Des / BFA",
+    "top5CollegeCourses": "B.Des Graphic,BFA,BA Multimedia,Diploma Design,UGC BFA",
+    "baseParagraph": "Creates visual materials for media/brands.",
+    "microprojects": "Design a logo pack;Create posters for an event",
+    "whyFit": "Visual eye;Creative storytelling;Good tools",
+    "recommendedSkills": [
+      "Adobe Photoshop",
+      "Adobe Illustrator",
+      "Typography",
+      "Color Theory",
+      "Branding"
+    ],
+    "recommendedCourses": [
+      " Graphic Design Specialization",
+      "Skillshare: Graphic Design Basics: Core Principles for Visual Design",
+      "Adobe Certified Professional"
+    ],
+    "_class": "com.naviksha.model.Career"
+  },
+  {
+    "_id": {
+      "$oid": "6923c6667bec671d320b089f"
+    },
+    "careerId": "c032",
+    "careerName": "Animation & VFX Artist",
+    "bucket": "Design Media & Creative Industries",
+    "riasecProfile": "A",
+    "primarySubjects": "[\"Art / Design\",\"Computer Science\"]",
+    "tags": "[\"animation\",\"creative\"]",
+    "minQualification": "Diploma / B.Des",
+    "top5CollegeCourses": "B.Des Animation,BA Multimedia,Diploma VFX,BFA,MFA Animation",
+    "baseParagraph": "Creates animations and VFX for films/games.",
+    "microprojects": "Animate a 10-second clip;Create a short storyboard",
+    "whyFit": "Creative;Patient;Detail oriented",
+    "recommendedSkills": [
+      "Autodesk Maya",
+      "Blender",
+      "Adobe After Effects",
+      "3D Modeling",
+      "Compositing"
+    ],
+    "recommendedCourses": [
+      " Animation and VFX",
+      "Animation Mentor",
+      "Gnomon School of Visual Effects"
+    ],
+    "_class": "com.naviksha.model.Career"
+  },
+  {
+    "_id": {
+      "$oid": "6923c6667bec671d320b08a0"
+    },
+    "careerId": "c040",
+    "careerName": "Doctor (MBBS)",
+    "bucket": "Healthcare & Life Sciences",
+    "riasecProfile": "SI",
+    "primarySubjects": "[\"Biology\",\"Chemistry\"]",
+    "tags": "[\"medicine\",\"service\"]",
+    "minQualification": "MBBS",
+    "top5CollegeCourses": "MBBS,MBBS + specialization,BSc Nursing,BPT,MD",
+    "baseParagraph": "Treats patients and works in healthcare. Long study route but stable career.",
+    "microprojects": "Volunteer at a clinic;Read simple medical cases",
+    "whyFit": "Service oriented;Good science marks;Resilient",
+    "recommendedSkills": [
+      "Medical Knowledge",
+      "Patient Care",
+      "Empathy",
+      "Communication",
+      "Problem-Solving"
+    ],
+    "recommendedCourses": [
+      "NEET Preparation",
+      "First Aid Certification",
+      "Shadowing a Doctor"
+    ],
+    "_class": "com.naviksha.model.Career"
+  },
+  {
+    "_id": {
+      "$oid": "6923c6677bec671d320b08a1"
+    },
+    "careerId": "c041",
+    "careerName": "Dentist (BDS)",
+    "bucket": "Healthcare & Life Sciences",
+    "riasecProfile": "SI",
+    "primarySubjects": "[\"Biology\",\"Chemistry\"]",
+    "tags": "[\"medicine\",\"hands_on\"]",
+    "minQualification": "BDS",
+    "top5CollegeCourses": "BDS,B.Sc Dental,Diploma Dental,MDent",
+    "baseParagraph": "Dental specialist treating oral health.",
+    "microprojects": "Assist in a dental clinic;Study tooth anatomy models",
+    "whyFit": "Hands on;Good fine motor skills;Interest in health",
+    "recommendedSkills": [
+      "Dental Anatomy",
+      "Manual Dexterity",
+      "Patient Communication",
+      "Attention to Detail",
+      "X-ray Interpretation"
+    ],
+    "recommendedCourses": [
+      "NEET Preparation",
+      "Dental Assistant Certification",
+      "Shadowing a Dentist"
+    ],
+    "_class": "com.naviksha.model.Career"
+  },
+  {
+    "_id": {
+      "$oid": "6923c6677bec671d320b08a2"
+    },
+    "careerId": "c042",
+    "careerName": "Clinical Research Associate",
+    "bucket": "Healthcare & Life Sciences",
+    "riasecProfile": "IR",
+    "primarySubjects": "[\"Biology\",\"Chemistry\",\"Math\"]",
+    "tags": "[\"research\",\"lab\"]",
+    "minQualification": "MSc / BSc",
+    "top5CollegeCourses": "BSc Life Sciences,MSc Clinical Research,PG Diploma Clinical Research,BPharm,BSc Biotechnology",
+    "baseParagraph": "Works on clinical trials and research compliance.",
+    "microprojects": "Design a simple clinical study outline;Summarize a research paper",
+    "whyFit": "Research leaning;Detail oriented;Good writing",
+    "recommendedSkills": [
+      "Good Clinical Practice (GCP)",
+      "Data Management",
+      "Regulatory Affairs",
+      "Scientific Writing",
+      "Project Management"
+    ],
+    "recommendedCourses": [
+      " Clinical Trials",
+      "ACRP Certified Clinical Research Associate (CCRA)",
+      "SOCRA Certified Clinical Research Professional (CCRP)"
+    ],
+    "_class": "com.naviksha.model.Career"
+  },
+  {
+    "_id": {
+      "$oid": "6923c6687bec671d320b08a3"
+    },
+    "careerId": "c050",
+    "careerName": "Chartered Accountant",
+    "bucket": "Finance & Business Consulting",
+    "riasecProfile": "CI",
+    "primarySubjects": "[\"Mathematics\",\"Accountancy\"]",
+    "tags": "[\"finance\",\"numbers\"]",
+    "minQualification": "CA / Commerce",
+    "top5CollegeCourses": "CA,B.Com(H),B.Com + CA Prep,Integrated Finance,PG Diploma Finance",
+    "baseParagraph": "Handles accounting, audit, tax and finance.",
+    "microprojects": "Prepare sample financial statements;Learn GST basics",
+    "whyFit": "Numerical;Detail oriented;Organized",
+    "recommendedSkills": [
+      "Accounting",
+      "Auditing",
+      "Taxation",
+      "Financial Management",
+      "Excel"
+    ],
+    "recommendedCourses": [
+      "CA Foundation",
+      " Introduction to Financial Accounting",
+      "Tally ERP 9 Certification"
+    ],
+    "_class": "com.naviksha.model.Career"
+  },
+  {
+    "_id": {
+      "$oid": "6923c6687bec671d320b08a4"
+    },
+    "careerId": "c051",
+    "careerName": "Finance Analyst",
+    "bucket": "Finance & Business Consulting",
+    "riasecProfile": "CI",
+    "primarySubjects": "[\"Mathematics\",\"Economics\"]",
+    "tags": "[\"finance\",\"analysis\"]",
+    "minQualification": "B.Com / BBA",
+    "top5CollegeCourses": "B.Com,BBA,BMS,B.Com(H),BSc Economics",
+    "baseParagraph": "Analyzes financial data and supports decisions.",
+    "microprojects": "Analyze company reports;Build small valuation model",
+    "whyFit": "Math skills;Analytical;Interest in markets",
+    "recommendedSkills": [
+      "Financial Modeling",
+      "Valuation",
+      "Excel",
+      "Bloomberg Terminal",
+      "Communication"
+    ],
+    "recommendedCourses": [
+      "CFA Program",
+      " Financial Markets",
+      "Wall Street Prep Financial Modeling"
+    ],
+    "_class": "com.naviksha.model.Career"
+  },
+  {
+    "_id": {
+      "$oid": "6923c6697bec671d320b08a5"
+    },
+    "careerId": "c060",
+    "careerName": "Lawyer",
+    "bucket": "Law Public Policy & Social Sciences",
+    "riasecProfile": "ES",
+    "primarySubjects": "[\"English\",\"Social Studies\"]",
+    "tags": "[\"law\",\"advocacy\"]",
+    "minQualification": "LLB / BA LLB",
+    "top5CollegeCourses": "BA LLB,LLB,LLM,BA Political Science,MA Public Policy",
+    "baseParagraph": "Represents clients in legal matters and advises on law.",
+    "microprojects": "Write a short case brief;Debate a legal issue",
+    "whyFit": "Good communication;Interest in rules;Argumentative skills",
+    "recommendedSkills": [
+      "Legal Research",
+      "Argumentation",
+      "Writing",
+      "Critical Thinking",
+      "Client Management"
+    ],
+    "recommendedCourses": [
+      "CLAT Preparation",
+      " Introduction to English Common Law",
+      "Moot Court Competition"
+    ],
+    "_class": "com.naviksha.model.Career"
+  },
+  {
+    "_id": {
+      "$oid": "6923c6697bec671d320b08a6"
+    },
+    "careerId": "c070",
+    "careerName": "Architect",
+    "bucket": "Architecture Planning & Built Environment",
+    "riasecProfile": "RA",
+    "primarySubjects": "[\"Mathematics\",\"Art / Design\"]",
+    "tags": "[\"design\",\"built_environment\"]",
+    "minQualification": "B.Arch",
+    "top5CollegeCourses": "B.Arch,M.Arch,BDes Interior,Diploma Architecture,M.Plan",
+    "baseParagraph": "Designs buildings and spaces.",
+    "microprojects": "Design a small house plan;Model a room layout",
+    "whyFit": "Spatial sense;Creative & technical;Design interest",
+    "recommendedSkills": [
+      "AutoCAD",
+      "Revit",
+      "SketchUp",
+      "Building Codes",
+      "Project Management"
+    ],
+    "recommendedCourses": [
+      "NATA Preparation",
+      " Making Architecture",
+      "Revit Architecture Certification"
+    ],
+    "_class": "com.naviksha.model.Career"
+  },
+  {
+    "_id": {
+      "$oid": "6923c6697bec671d320b08a7"
+    },
+    "careerId": "c080",
+    "careerName": "Chef",
+    "bucket": "Culinary & Hospitality",
+    "riasecProfile": "R",
+    "primarySubjects": "[\"Chemistry\",\"Physical Education\"]",
+    "tags": "[\"food\",\"hands_on\"]",
+    "minQualification": "Diploma / BHM",
+    "top5CollegeCourses": "BHM,Diploma Culinary,BSc Hospitality,BA Tourism,Certificate Culinary",
+    "baseParagraph": "Creates food experiences in restaurants and hotels.",
+    "microprojects": "Create a sample menu;Cook a three-course meal",
+    "whyFit": "Hands-on;Creative;Likes service",
+    "recommendedSkills": [
+      "Culinary Techniques",
+      "Menu Planning",
+      "Kitchen Management",
+      "Food Safety",
+      "Creativity"
+    ],
+    "recommendedCourses": [
+      "Le Cordon Bleu Diplomas",
+      "Culinary Institute of America Programs",
+      "ServSafe Certification"
+    ],
+    "_class": "com.naviksha.model.Career"
+  },
+  {
+    "_id": {
+      "$oid": "6923c66a7bec671d320b08a8"
+    },
+    "careerId": "c090",
+    "careerName": "Electrician Technician",
+    "bucket": "Trades Vocational & Skilled Services",
+    "riasecProfile": "R",
+    "primarySubjects": "[\"Physics\"]",
+    "tags": "[\"trades\",\"hands_on\"]",
+    "minQualification": "ITI / Diploma",
+    "top5CollegeCourses": "ITI Electrician,Diploma Electrical,Apprenticeship Certificate,Skill India Courses",
+    "baseParagraph": "Installs and maintains electrical systems.",
+    "microprojects": "Install a basic wiring lesson;Practice circuit troubleshooting",
+    "whyFit": "Hands-on;Practical;Good with tools",
+    "recommendedSkills": [
+      "Wiring and Installation",
+      "Circuit Troubleshooting",
+      "Safety Procedures",
+      "Blueprint Reading",
+      "Problem-Solving"
+    ],
+    "recommendedCourses": [
+      "ITI Electrician Course",
+      "National Electrical Code (NEC) Training",
+      "Apprenticeship Programs"
+    ],
+    "_class": "com.naviksha.model.Career"
+  },
+  {
+    "_id": {
+      "$oid": "6923c66a7bec671d320b08a9"
+    },
+    "careerId": "c100",
+    "careerName": "School Teacher",
+    "bucket": "Education & Training",
+    "riasecProfile": "SE",
+    "primarySubjects": "[\"Any\"]",
+    "tags": "[\"teaching\",\"service\"]",
+    "minQualification": "B.Ed / BA+BEd",
+    "top5CollegeCourses": "B.Ed,BA+BEd,BSc+BEd,PG Diploma Education,Certificate Teaching",
+    "baseParagraph": "Teaches school students and plans lessons.",
+    "microprojects": "Create a lesson plan;Teach a short demo class",
+    "whyFit": "Enjoy teaching;Patient;Good communication",
+    "recommendedSkills": [
+      "Classroom Management",
+      "Lesson Planning",
+      "Communication",
+      "Patience",
+      "Subject Matter Expertise"
+    ],
+    "recommendedCourses": [
+      "B.Ed Program",
+      " Learning How to Learn",
+      "TET (Teacher Eligibility Test) Preparation"
+    ],
+    "_class": "com.naviksha.model.Career"
+  },
+  {
+    "_id": {
+      "$oid": "6923c66b7bec671d320b08aa"
+    },
+    "careerId": "c110",
+    "careerName": "Sustainability Consultant",
+    "bucket": "Environment & Sustainability",
+    "riasecProfile": "IA",
+    "primarySubjects": "[\"Environmental Science\",\"Chemistry\"]",
+    "tags": "[\"sustainability\",\"new_age\"]",
+    "minQualification": "MSc / BTech",
+    "top5CollegeCourses": "B.Tech Environmental,BSc Environmental Science,MSc Sustainability,PG Diploma Renewables,BSc Horticulture",
+    "baseParagraph": "Helps organisations reduce environmental impact.",
+    "microprojects": "Audit a local shop's waste;Design a small recycling plan",
+    "whyFit": "Values environment;Problem solver;Analytical",
+    "recommendedSkills": [
+      "Environmental Science",
+      "Data Analysis",
+      "Project Management",
+      "Communication",
+      "Policy Knowledge"
+    ],
+    "recommendedCourses": [
+      "LEED Green Associate Certification",
+      " Introduction to Sustainability",
+      "GRI Standards Certified Training"
+    ],
+    "_class": "com.naviksha.model.Career"
+  },
+  {
+    "_id": {
+      "$oid": "6923c66b7bec671d320b08ab"
+    },
+    "careerId": "c120",
+    "careerName": "Actor",
+    "bucket": "Arts Performance & Entertainment",
+    "riasecProfile": "AE",
+    "primarySubjects": "[\"Art / Design\",\"English\"]",
+    "tags": "[\"performance\",\"creative\"]",
+    "minQualification": "Diploma / BFA",
+    "top5CollegeCourses": "BFA,BA Performing Arts,Diploma Acting,Film School Courses,Certificate Theatre",
+    "baseParagraph": "Performs in theatre, film or TV.",
+    "microprojects": "Act in a short play;Record a monologue reel",
+    "whyFit": "Creative;Confident;Expressive",
+    "recommendedSkills": [
+      "Acting Technique",
+      "Voice and Speech",
+      "Movement",
+      "Improvisation",
+      "Auditioning"
+    ],
+    "recommendedCourses": [
+      "National School of Drama (NSD) Workshops",
+      "Anupam Kher's Actor Prepares",
+      "Local Theatre Groups"
+    ],
+    "_class": "com.naviksha.model.Career"
+  },
+  {
+    "_id": {
+      "$oid": "6923c66c7bec671d320b08ac"
+    },
+    "careerId": "c130",
+    "careerName": "Product Manager",
+    "bucket": "Entrepreneurship & Product Management",
+    "riasecProfile": "EE",
+    "primarySubjects": "[\"Mathematics\",\"Computer Science\",\"English\"]",
+    "tags": "[\"product\",\"new_age\"]",
+    "minQualification": "MBA / B.Tech",
+    "top5CollegeCourses": "B.Tech + MBA,BBA + MBA,PG Diploma Product Management,Online PM Courses,Integrated Programs",
+    "baseParagraph": "Defines product vision and leads cross-functional teams.",
+    "microprojects": "Design a product spec;Run a small user interview",
+    "whyFit": "Leader;Product mindset;Good communicator",
+    "recommendedSkills": [
+      "Product Strategy",
+      "User Research",
+      "Data Analysis",
+      "Agile Methodologies",
+      "Communication"
+    ],
+    "recommendedCourses": [
+      " Google Project Management Professional Certificate",
+      "Product School Certification",
+      "Pragmatic Institute Certification"
+    ],
+    "_class": "com.naviksha.model.Career"
+  },
+  {
+    "_id": {
+      "$oid": "6923c66c7bec671d320b08ad"
+    },
+    "careerId": "c140",
+    "careerName": "Cybersecurity Analyst",
+    "bucket": "Cybersecurity Networks & Emerging Tech",
+    "riasecProfile": "IR",
+    "primarySubjects": "[\"Computer Science\",\"Mathematics\"]",
+    "tags": "[\"security\",\"new_age\"]",
+    "minQualification": "B.Tech / Certifications",
+    "top5CollegeCourses": "B.Tech CS,Cybersecurity Certifications (CEH),BSc IT,Integrated M.Tech,PG Diploma Cybersec",
+    "baseParagraph": "Protects systems and data from attacks.",
+    "microprojects": "Set up a penetration test lab;Practice CTF challenges",
+    "whyFit": "Likes problem solving;Security interest;Technical",
+    "recommendedSkills": [
+      "Network Security",
+      "Penetration Testing",
+      "Incident Response",
+      "Cryptography",
+      "Python"
+    ],
+    "recommendedCourses": [
+      "CompTIA Security+",
+      "Certified Ethical Hacker (CEH)",
+      " IBM Cybersecurity Analyst Professional Certificate"
+    ],
+    "_class": "com.naviksha.model.Career"
+  },
+  {
+    "_id": {
+      "$oid": "6923c66d7bec671d320b08ae"
+    },
+    "careerId": "c141",
+    "careerName": "Blockchain Developer",
+    "bucket": "Cybersecurity Networks & Emerging Tech",
+    "riasecProfile": "IR",
+    "primarySubjects": "[\"Computer Science\",\"Mathematics\"]",
+    "tags": "[\"blockchain\",\"new_age\"]",
+    "minQualification": "B.Tech / Certifications",
+    "top5CollegeCourses": "B.Tech CS,BSc IT,Certification Blockchain,PG Diploma Blockchain,Integrated CS",
+    "baseParagraph": "Builds distributed ledger applications.",
+    "microprojects": "Write a simple smart contract;Build a token demo",
+    "whyFit": "Interest in crypto;Strong coding;Analytical",
+    "recommendedSkills": [
+      "Solidity",
+      "Smart Contracts",
+      "Cryptography",
+      "Data Structures",
+      "Web3.js"
+    ],
+    "recommendedCourses": [
+      "Certified Blockchain Developer (CBDH)",
+      " Blockchain Specialization",
+      "ConsenSys Academy"
+    ],
+    "_class": "com.naviksha.model.Career"
+  },
+  {
+    "_id": {
+      "$oid": "6923c66d7bec671d320b08af"
+    },
+    "careerId": "c150",
+    "careerName": "Drone Systems Operator",
+    "bucket": "Cybersecurity Networks & Emerging Tech",
+    "riasecProfile": "R",
+    "primarySubjects": "[\"Physics\",\"Computer Science\"]",
+    "tags": "[\"drones\",\"new_age\"]",
+    "minQualification": "Diploma / Certification",
+    "top5CollegeCourses": "Diploma UAV Operations,Certificate Drone Pilot,ILT Drone Systems,B.Tech Embedded Systems,PG Diploma Robotics",
+    "baseParagraph": "Operates and programs drones for mapping/surveys.",
+    "microprojects": "Fly a small drone;Run mapping mission;Analyze drone data",
+    "whyFit": "Hands-on;Interest in robotics;Tech savvy",
+    "recommendedSkills": [
+      "Drone Piloting",
+      "Photogrammetry",
+      "GIS Software",
+      "Data Analysis",
+      "Robotics"
+    ],
+    "recommendedCourses": [
+      "DGCA Certified Drone Pilot Training",
+      "Pix4D Certification",
+      " Drones and Autonomous Systems"
+    ],
+    "_class": "com.naviksha.model.Career"
+  }
+]
