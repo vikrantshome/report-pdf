@@ -9,6 +9,10 @@ WORKDIR /usr/src/app
 RUN apt-get update && apt-get install -yq \
     ca-certificates \
     fonts-liberation \
+    fonts-noto-core \
+    fonts-noto-cjk \
+    fonts-noto-mono \
+    fonts-noto-ui-core \
     libasound2 \
     libatk-bridge2.0-0 \
     libatk1.0-0 \
